@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        Prince Vats<br>
+        I am always ready to learn new and advanced technologies.
+    </header>
+
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+
+    <h1 id="Home">Home</h1>
+
+    <h2>Learning New Technologies</h2>
+    <p>
+        My favorite hobby is learning new technologies.
+        I enjoy exploring emerging tools, programming languages and software platforms that enhance my technical
+        knowledge and problem solving abilities.
+        As an MCA student staying updated with the latest trends in technology helps me strengthen my foundation and
+        remain competitive in the IT field.
+        I often spend my free time watching tutorials, reading tech blogs and practicing new concepts through small
+        projects.
+        This hobby not only improves my technical skills but also keeps me curious, adaptable and motivated to grow
+        continuously in my career.
+    </p>
+
+    <h3>Three Benefits of My Hobby</h3>
+
+    <ol id="benefitsList">
+        <li>Skill Development</li>
+        <li>Better Problem Solving</li>
+        <li>Career Growth</li>
+    </ol>
+
+    <input type="text" id="newBenefit" placeholder="Enter new benefit">
+    <button id="addBenefitBtn">Add</button>
+
+    <h2 id="About">About</h2>
+    <p>
+        I am currently pursuing MCA and building my expertise in data analytics and programming.
+        As a fresher I am enthusiastic about applying my technical knowledge,
+        learning new technologies, and contributing effectively to team projects.
+    </p>
+
+    <h2 id="Projects">Projects</h2>
+
+    <h3>Titles of Projects</h3>
+
+    <ul>
+        <li>
+            <h4>Financial Performance Dashboard</h4>
+            <p>
+                Created a Power BI dashboard to analyze company financials including revenue, expenses, profit margins
+                and cash flow trends.<br>
+                Used DAX measures to calculate KPIs such as Gross Profit Margin, Net Profit Margin and Operating
+                Costs.<br>
+                Integrated data from Excel and SQL databases for real-time financial monitoring.
+            </p>
+        </li>
+
+        <li>
+            <h4>Sales and Revenue Analysis</h4>
+            <p>
+                Developed an interactive sales dashboard to track revenue, sales performance and regional trends.<br>
+                Used Power Query to clean and transform raw sales data.<br>
+                Created dynamic visualizations for monthly, quarterly and yearly sales trends.
+            </p>
+        </li>
+
+        <li>
+            <h4>Stock Market Analysis Dashboard</h4>
+            <p>
+                Built a Power BI report to analyze stock performance over time.<br>
+                Integrated data from Yahoo Finance API to fetch real-time stock prices.<br>
+                Implemented candlestick charts, moving averages and trend analysis using DAX.
+            </p>
+        </li>
+    </ul>
+
+    <h2 id="Contact">Contact</h2>
+
+    <form id="contactForm">
+        <label>Name:</label><br>
+        <input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="Email" placeholder="Enter Your Email" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea id="Message" rows="4" placeholder="Enter Your Message"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>Connect with me on
+            <a href="https://www.linkedin.com/in/prince-vats-039188259" target="_blank">
+                LinkedIn
+            </a>
+        </p>
+        <p id="dateTime"></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
