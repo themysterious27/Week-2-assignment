@@ -90,12 +90,3 @@ I am a fresher and always ready to learn and grow.
 - JavaScript 
 
 
-
-## Project Structure
-
-portfolio-website/
-│── index.html  
-│── style.css  
-│── script.js  
-│── README.md  
-
