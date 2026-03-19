@@ -99,10 +99,3 @@ portfolio-website/
 │── script.js  
 │── README.md  
 
-
-
-## How to Run
-
-1. Download or clone this repository  
-2. Open the folder 
-3. Open `index.html` in your browser  
